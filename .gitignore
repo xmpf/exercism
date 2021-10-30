@@ -1,3 +1,5 @@
 *.lock
+*.bin
+
 */semi-structured-logs/
 */target/
