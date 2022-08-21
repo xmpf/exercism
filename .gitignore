@@ -1,6 +1,6 @@
 *.lock
 *.bin
 *.json
-
+.vscode/
 semi-structured-logs/
 target/
