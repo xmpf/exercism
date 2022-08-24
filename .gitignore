@@ -4,3 +4,4 @@
 .vscode/
 semi-structured-logs/
 target/
+__pycache__/
