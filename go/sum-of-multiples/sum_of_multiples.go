@@ -25,13 +25,7 @@ func SumMultiples(limit int, divisors ...int) int {
 			continue
 		}
 
-		for times := 1; ; times += 1 {
-			multiple := divisor * times
-
-			if multiple >= limit {
-				break
-			}
-
+		for multiple := divisor; multiple < limit; multiple += divisor {
 			if _, exists := multiples[multiple]; !exists {
 				multiples[multiple] = true
 				sum += multiple
